@@ -1,0 +1,50 @@
+.main{
+    background-color:rgb(195, 190, 190);
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+strong:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sub{
+    background-color: rgb(42, 38, 38);
+    color: aliceblue;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+  
+}
+.sub:hover{
+    text-decoration: underline;
+}
+
+button{
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+    background: none;
+    color: aliceblue;
+    size: 542px;
+    display: inline-block; /* Display button as inline-block */
+    vertical-align: middle; /* Align button vertically to middle */
+  }
+ 
+  @media screen and (max-width: 866px) {
+    .main {
+      flex-direction: column; /* Stack elements vertically on screens 866px or smaller */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main {
+      padding: 5px; /* Reduce padding on smaller screens */
+    }
+  }
+

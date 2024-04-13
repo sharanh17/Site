@@ -1,0 +1,50 @@
+
+  
+  .brand-name {
+    font-size: 24px;
+  }
+  
+  .slide-text {
+    font-size: 18px;
+  }
+ .custom-carousel{
+    max-width: 50vw;
+    max-height: 600px;
+ }
+ .carousel-image {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+  }
+  .brand-name{
+    padding: 60px 0px 0px 60px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  }
+.carousel-container{
+    background-color:#dbd1c5 ;
+}
+
+.heading {
+    margin-top: 100px; /* Adjust as needed */
+  }
+  .arroww{
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-left: 10px; /* Adjust the spacing between text and arrow as needed */
+    cursor: pointer;
+  }
+  .more{
+    border-color: black;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-width: 10px;
+    cursor: pointer;
+   
+   
+  }
+  
+  .carousel-image {
+    display: block;
+    margin: 0 auto; /* This will center the images horizontally */
+    max-width: 100%; /* Ensure images don't exceed container width */
+  }
